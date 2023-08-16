@@ -86,12 +86,25 @@ header a {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.card-header img {
+  height: 100%;
+}
+
 .card-body {
   padding: 30px;
 }
 
 .card-footer {
   padding: 20px 5px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .btn {
@@ -223,5 +236,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
