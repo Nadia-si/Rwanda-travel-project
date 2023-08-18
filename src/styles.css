@@ -75,6 +75,7 @@ header a {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .grid-3-columns-with-first-narrow {
@@ -143,6 +144,7 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 main h4 {
